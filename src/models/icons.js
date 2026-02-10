@@ -1,0 +1,16 @@
+export { default as FlutterIcon } from '../icons/flutter.svg';
+export { default as JavaScriptIcon } from '../icons/javascript.svg';
+export { default as CSharpIcon } from '../icons/csharp.svg';
+export { default as HtmlIcon } from '../icons/html.svg';
+export { default as ReactIcon } from '../icons/react.svg';
+export { default as nodejs } from '../icons/nodejs.svg';
+export { default as KotlinIcon } from '../icons/kotlin.svg';
+export { default as TypeScriptIcon } from '../icons//typescript.svg';
+export { default as DartIcon } from '../icons/dart.svg';
+export { default as GitIcon } from '../icons/git.svg';
+export { default as PyIcon } from '../icons/python.svg';
+export { default as CssIcon } from '../icons/css.svg';
+// export { default as FigmaIcon } from '../icons/figma.svg';
+// export { default as PhotoShop } from '../icons/photoshop.svg';
+// export { default as CanvaIcon } from '../icons/canva.svg';
+export { default as VSCodeIcon } from '../icons/vscode.svg';
