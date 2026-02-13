@@ -4,26 +4,19 @@ import SocialIcons from './components/SocialIcons';
 import Home from './components/Home';
 import About from './components/About';
 import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// This controls the entire application and handles navigation
-
 function App() {
     // State management
-    // activePage: tracks which page is currently displayed
-    // slideDirection: controls animation direction ('left'or 'right')
-
     const [activePage, setActivePage] = useState(0);
     const [slideDirection, setSlideDIrection] = useState('');
 
 
-    // Function: handle page navigation with animation
-    // Parameters: newPage
     // THis function determines the slide dorection and updates the active page
     const handlePageChange = (newPage) => {
         setSlideDIrection(newPage > activePage ? 'left' : 'right');
@@ -39,7 +32,7 @@ function App() {
             <div className='content-wrapper'>
                 {/* This div applies the slide animation classes dynamically */}
                 <div className={`pages-container slide-${slideDirection}`}>
-                    {/* CONDITIONAL RENDERING: Only render the active page component */}
+                    {/* Render the active page component */}
                     {activePage === 0 && <Home onNavigate={handlePageChange} />}
                     {activePage === 1 && <About />}
                     {activePage === 2 && <Resume />}
@@ -49,7 +42,7 @@ function App() {
                 </div>
             </div>
 
-            {/* SOCIAL ICONS: Fixed position social media links */}
+            {/* SOCIAL ICONS */}
             <SocialIcons />
         </div><Router>
                 <Routes>

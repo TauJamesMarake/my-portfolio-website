@@ -22,8 +22,8 @@ function SocialIcons() {
                         target='_blank'
                         rel='noopener noreferrer'
                         className='social-icon'
-                        title={social.label} // tooltip on hover
-                        aria-label={social.label} // accessibility
+                        title={social.label}
+                        aria-label={social.label}
                     >
                         <Icon size={20} />
                     </a>

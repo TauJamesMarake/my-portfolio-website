@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home, User, FileText, Briefcase, MessageSquare, Mail } from 'lucide-react';
-import profilePicture from '../images/profile_picture.jpg'
+import profilePicture from '../images/firstPrince.jpg';
 
 // Receives the current page and a function to change pages from Main.js
 
@@ -25,7 +25,7 @@ function Sidebar({ activePage, onPageChange }) {
                 />
             </div>
 
-            {/* NAVIGATION MENU: Map through menu items to create clickable links */}
+            {/* NAVIGATION MENU */}
             <nav className='slidebar-nav'>
                 {MenuItems.map((item, index) => {
                     const Icon = item.icon;
@@ -34,7 +34,7 @@ function Sidebar({ activePage, onPageChange }) {
                             key={index}
                             // Add 'active' class if this item is the current page
                             className={`nav-item ${activePage === index ? 'active' : ''}`}
-                            // Call the onPageChange function passed from the Main.js
+                            // Calls the onPageChange function passed from the Main.js
                             onClick={() => onPageChange(index)}
                         >
                             <Icon size={18} />
