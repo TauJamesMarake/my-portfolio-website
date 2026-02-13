@@ -36,7 +36,7 @@ function Resume() {
             date: '2022 - 2025',
             title: 'Diploma in Information Technology',
             institution: 'Central University of Technology, Free State',
-            description: 'Specialised in software development, hardware troubleshooting, data management, and system support. Strong foundation in programming languages including C# ASP.NET MVC, Python, Flutter, HTML/CSS/JavaScript, and SQL.'
+            description: 'Specialised in software development/engineering, web deveopment, computer networking, UI/UX design, data management, and system support.'
         },
         {
             date: '2025',
@@ -154,7 +154,7 @@ function Resume() {
                     <h2>EDUCATION</h2>
                 </div>
 
-                {/* TIMELINE GRID: Display education items in 3 columns */}
+                {/* TIMELINE GRID */}
                 <div className="timeline">
                     {education.map((edu, index) => (
                         <div key={index} className="timeline-item">

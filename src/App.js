@@ -35,9 +35,9 @@ function App() {
                     {/* Render the active page component */}
                     {activePage === 0 && <Home onNavigate={handlePageChange} />}
                     {activePage === 1 && <About />}
-                    {activePage === 2 && <Resume />}
+                    {activePage === 2 && <Projects />}
+                    {activePage === 3 && <Resume />}
                     {/* {activePage === 3 && <Portfolio />} */}
-                    {activePage === 3 && <Projects />}
                     {activePage === 4 && <Contact />}
                 </div>
             </div>

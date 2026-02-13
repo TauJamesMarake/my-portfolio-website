@@ -9,9 +9,9 @@ function Sidebar({ activePage, onPageChange }) {
     const MenuItems = [
         { icon: Home, label: 'HOME' },
         { icon: User, label: 'ABOUT ME' },
-        { icon: FileText, label: 'RESUME' },
         // { icon: Briefcase, label: 'PORTFOLIO' },
         { icon: MessageSquare, label: 'PROJECTS' },
+        { icon: FileText, label: 'RESUME' },
         { icon: Mail, label: 'CONTACT ME' },
     ];
 
