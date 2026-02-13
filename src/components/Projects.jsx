@@ -3,14 +3,28 @@ function Projects() {
     // PROJECT LIST:
     const projects = [
         {
-            name: 'Quiet Websites (richsoulo)',
+            name: 'Quiet Websites',
             tech: 'HTML5, CSS3, JavaScript',
             text: 'Quet Websites, a collection of minimal web experiences that do very little, on purpose. They Don\'t chase attention, collect data, or demand interaction. Each site focuses on one calm, thoughtful concept, using clean design and lightweight code to create reflective moments on the web.',
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop'
+            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop',
+            link: "https://taujamesmarake/github.io/quiet-websites/index.html"
+        },
+        {
+            name: 'Student Accommodation Website',
+            tech: "HTML5, CSS3, JavaScript, Node.js",
+            text: "A full-stack web application designed to streamline the student housing application process. Users can browse available rooms, submit accommodation applications with integrated NSFAS funding support, and provides administrators with a comprehensive dashboard to manage applications effeciently",
+            image: "",
+            link: "https://taujamesmarake.github.io/student-accommodation/index.html"
+        },
+        {
+            name: 'Web Portfolio',
+            tech: 'JavaScript, React.js',
+            text: 'This very own portfolio, intended to showcase my personal work and my React.js skills',
+            image: ""
         },
         {
             name: 'Future Self Messenger',
-            tech: 'HTML5, CSS3, JavaScript, Node.JS',
+            tech: 'HTML5, CSS3, JavaScript, Node.js',
             text: 'TBD',
             image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop'
         },
@@ -19,12 +33,6 @@ function Projects() {
             tech: 'JavaScript, TypeScript, OpenAI',
             text: 'TBD',
             image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop'
-        },
-        {
-            name: 'Web Portfolio',
-            tech: 'JavaScript, React.JS',
-            text: 'This very own portfolio, intended to showcase my personal work and my React.js skills',
-            image: ""
         },
         // {
         //     name: 'James',
@@ -53,6 +61,7 @@ function Projects() {
                             <div className="project-info">
                                 <h3>{project.name}</h3>
                                 <p>{project.tech}</p>
+                                <p>{project.link}</p>
                             </div>
                         </div>
 

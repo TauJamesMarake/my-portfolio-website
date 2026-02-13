@@ -22,6 +22,15 @@ function Contact() {
         }
     ];
 
+    const handleContact = (method) => {
+        if (method.title === "EMAIL") {
+            window.location.href = `${method.link}`;
+        }
+        else if (method.title === "PHONE") {
+            window.location.href = `${method.link}`;
+        }
+    }
+
     return (
         <div className="page">
             <div className="contact-content">
@@ -54,15 +63,6 @@ function Contact() {
             </div>
         </div>
     );
-}
-
-const handleContact = (method) => {
-    if (method.title === "EMAIL") {
-        window.location.href = `${method.link}`;
-    }
-    else if (method.title === "PHONE") {
-        window.location.href = `${method.link}`;
-    }
 }
 
 export default Contact;

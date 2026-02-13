@@ -209,7 +209,7 @@ function Resume() {
                         <h3>{selectedCertificate.title}</h3>
                         <p className="modal-issuer">{selectedCertificate.issuer} • {selectedCertificate.date}</p>
                         <iframe
-                            src={selectedCertificate.certificateUrl}
+                            src={`${selectedCertificate.certificateUrl}#toolbar=0`}
                             title={selectedCertificate.title}
                             className="certificate-viewer"
                         />
@@ -280,6 +280,7 @@ function Resume() {
                         <iframe
                             src={cvFile}
                             className="certificate-viewer"
+                            sandbox="allow-scripts allow-same-origin"
                         />
                     </div>
                 </div>
