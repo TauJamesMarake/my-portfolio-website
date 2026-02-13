@@ -36,13 +36,11 @@ function Home({ onNavigate }) {
                 <br />
 
                 {/* <h4 className='home-tagline'>OTHER...</h4> */}
-                <div className="home-tagline-title" style={{ fontSize: 18 }}>
+                {/* <div className="home-tagline-title" style={{ fontSize: 18 }}>
                     IT Technician • Small Bsiness Owner (Anna's Spice & Treats)<br />
                     Indepedent Music Producer (Rey Lion, Distibuted via CDBaby).<br />
                     UI/UX Design • Graphic Design • Digital Artist
-                </div>
-                <br />
-                <br />
+                </div> */}
 
                 {/* <h4 className='home-tagline'>CREATIVE AND DESIGN</h4>
                 <div className="home-tagline-title">
@@ -50,13 +48,13 @@ function Home({ onNavigate }) {
                 </div>
                 <br /> */}
 
-                <h4 className='home-tagline'>
+                {/* <h4 className='home-tagline'>
                     READY TO HANDLE YOUR NEW PROJECT
-                </h4>
+                </h4> */}
 
                 {/* DESCRIPTION */}
                 <p className="home-description">
-                    I build digital experiences that blend functionality, creativity, and intent. From crafted interfaces to structured systems, my work reflects a quiet precision.<br /><br />
+                    I build digital experiences that blend functionality, creativity, and intent, helping businesses get more customers and manage operations online. From crafted interfaces to structured systems, my work reflects a quiet precision.<br /><br />
                     There's more - <em>explore the craft behind the code.</em>
                 </p>
 

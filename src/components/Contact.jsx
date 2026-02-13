@@ -6,12 +6,14 @@ function Contact() {
         {
             icon: Mail,
             title: 'EMAIL',
-            info: 'jtaumarake@gmail.com'
+            info: 'jtaumarake@gmail.com',
+            link: 'mailto:jtaumarake@gmail.com'
         },
         {
             icon: Phone,
             title: 'PHONE',
-            info: '+27 (78)-676-6686'
+            info: '+27 (78)-676-6686',
+            link: 'tel:+27786766686'
         },
         {
             icon: LocateFixed,
@@ -32,7 +34,8 @@ function Contact() {
                     {contactMethods.map((method, index) => {
                         const Icon = method.icon;
                         return (
-                            <div key={index} className="contact-method">
+                            <div key={index} className="contact-method" onClick={() => handleContact(method)}>
+                                {/* <a href={method.link} target="_blank" rel="noopener noreferrer"> */}
                                 <div className="contact-method-icon">
                                     <Icon size={30} />
                                 </div>
@@ -45,13 +48,21 @@ function Contact() {
                     })}
                 </div>
 
-                {/* THANK YOU MESSAGE: Closing statement */}
                 <div className="thanks-message">
                     Thank You!
                 </div>
             </div>
         </div>
     );
+}
+
+const handleContact = (method) => {
+    if (method.title === "EMAIL") {
+        window.location.href = `${method.link}`;
+    }
+    else if (method.title === "PHONE") {
+        window.location.href = `${method.link}`;
+    }
 }
 
 export default Contact;

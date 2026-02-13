@@ -733,6 +733,10 @@ body {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+.contact-method a {
+    text-decoration: none;
+}
+
 .contact-method-icon {
     width: 70px;
     height: 70px;

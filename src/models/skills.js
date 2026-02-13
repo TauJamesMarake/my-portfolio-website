@@ -5,7 +5,7 @@ const skills = [
     },
     {
         title: 'WEB DEVELOPMENT',
-        description: 'Building modern, responsive websites and web applications with clean, maintainable code.'
+        description: 'Building modern, responsive websites and web applications with clean, maintainable code (frontend and backened).'
     },
     {
         title: 'SOFTWARE DEVELOPMENT',
@@ -19,10 +19,10 @@ const skills = [
         title: 'UI/UX & GRAPHIC DESIGN',
         description: 'Designing interfaces, digital artwork, posters, flyers & album covers.'
     },
-    {
-        title: 'DIGITAL ENTREPRENEURSHIP',
-        description: 'Launching and managing business like Anna\'s Spices & Treats, blending strategy with execution to bring ideas to life.'
-    },
+    // {
+    //     title: 'DIGITAL ENTREPRENEURSHIP',
+    //     description: 'Launching and managing business like Anna\'s Spices & Treats, blending strategy with execution to bring ideas to life.'
+    // },
     {
         title: 'MUSIC PRODUCTION & DISTRIBUTION',
         description: 'I create, produce, and distribute original music as an independent artist. My work covers everything from songwriting to mixing and mastering, and release planning. I manage my distribution through CDBaby. In addition, I design my own cover art and visual branding, giving my music a unified creative identity.'
