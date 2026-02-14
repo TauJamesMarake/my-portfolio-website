@@ -1,5 +1,5 @@
 import { FlutterIcon, KotlinIcon, DartIcon, TypeScriptIcon, GitIcon, PyIcon, JavaScriptIcon, CSharpIcon, HtmlIcon, ReactIcon, CssIcon, nodejs } from './icons';
-import { VSCodeIcon, FigmaIcon, PhotoShop, CanvaIcon } from './icons';
+// import { VSCodeIcon, FigmaIcon, PhotoShop, CanvaIcon } from './icons';
 
 const techStack = [
     { icon: <img src={FlutterIcon} width={35} height={35} alt="flutter icon" />, label: 'FLUTTER' },
@@ -16,11 +16,11 @@ const techStack = [
     { icon: <img src={KotlinIcon} width={40} height={40} alt="kotlin icon" />, label: 'KOTLIN' }
 ];
 
-const tools = [
-    { icon: <img src={VSCodeIcon} width={40} height={40} alt='vscode' />, label: 'VSCode' },
-    { icon: <img src={FigmaIcon} alt='figma icon' />, label: 'Figma' },
-    { icon: <img src={PhotoShop} alt='adobe photoshop icon' />, label: "Adobe Photoshop" },
-    { icon: <img src={CanvaIcon} alt='canva icon' />, label: "Canva" }
-]
+// const tools = [
+//     { icon: <img src={VSCodeIcon} width={40} height={40} alt='vscode' />, label: 'VSCode' },
+//     { icon: <img src={FigmaIcon} alt='figma icon' />, label: 'Figma' },
+//     { icon: <img src={PhotoShop} alt='adobe photoshop icon' />, label: "Adobe Photoshop" },
+//     { icon: <img src={CanvaIcon} alt='canva icon' />, label: "Canva" }
+// ]
 
-export { techStack, tools };
+export { techStack };

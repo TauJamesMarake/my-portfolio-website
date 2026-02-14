@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d57f3a0d.css",
+    "main.js": "/static/js/main.f46d94ab.js",
+    "static/media/profile_picture.jpg": "/static/media/profile_picture.671242e66e4c54d13741.jpg",
+    "static/media/firstPrince.jpg": "/static/media/firstPrince.07778c9716c5d3095451.jpg",
+    "static/media/cv - tau j. marake.pdf": "/static/media/cv - tau j. marake.22e216068ae0bb2739f4.pdf",
+    "static/media/Tau-2-687CD61AC590F-2025-07-20-13-42-19.pdf": "/static/media/Tau-2-687CD61AC590F-2025-07-20-13-42-19.72db636dea2d4d6067af.pdf",
+    "static/media/Python_Essentials_1_certificate.pdf": "/static/media/Python_Essentials_1_certificate.450814b37afdfdded1ea.pdf",
+    "static/media/Introduction_to_Data_Science_certificate.pdf": "/static/media/Introduction_to_Data_Science_certificate.6503a61010ed0f564225.pdf",
+    "static/media/Introduction_to_Cybersecurity_certificate.pdf": "/static/media/Introduction_to_Cybersecurity_certificate.386e189edfc2990a97a0.pdf",
+    "static/media/2nd _introduction_to_Data_Science_certificate_222052288-stud-cut-ac-za_5ccb4d1f-17f0-406f-98b2-03ad43db3e17.pdf": "/static/media/2nd _introduction_to_Data_Science_certificate_222052288-stud-cut-ac-za_5ccb4d1f-17f0-406f-98b2-03ad43db3e17.6b673c3f59a623c7d42a.pdf",
+    "static/media/Tau Marake - Content Marketing.pdf": "/static/media/Tau Marake - Content Marketing.8aefd0b91da47e31b0eb.pdf",
+    "static/media/nodejs.svg": "/static/media/nodejs.f163cddfbfe49648deb1ce8917207b77.svg",
+    "static/media/react.svg": "/static/media/react.c60e072461a29d9c38291223075ac016.svg",
+    "static/media/canva.svg": "/static/media/canva.945c343ea2f707d50ef916d33663c3c2.svg",
+    "static/media/git.svg": "/static/media/git.fff69573d1c741b67fee90c17414d27c.svg",
+    "static/media/csharp.svg": "/static/media/csharp.b3937fbb64c9ddb883642e3171d95f41.svg",
+    "static/media/dart.svg": "/static/media/dart.18894183288e5beefa48aaf4a05e4ad4.svg",
+    "static/media/html.svg": "/static/media/html.8af6948df811f46a0eadbe39ad98638b.svg",
+    "static/media/photoshop.svg": "/static/media/photoshop.c199ca378272c15e75ea39dd84f838de.svg",
+    "static/media/css.svg": "/static/media/css.bba0846c17cbd72752bd3deda1c1fdae.svg",
+    "static/media/typescript.svg": "/static/media/typescript.b939a2d1b7b5da4819e25cf4a4a62420.svg",
+    "static/media/vscode.svg": "/static/media/vscode.01edeabe87a220d0e550cd53b82fb693.svg",
+    "static/media/kotlin.svg": "/static/media/kotlin.715045babf334f781660c09535be4c84.svg",
+    "static/media/javascript.svg": "/static/media/javascript.cb6c28ae8b07ac4ffe29cee2352650dd.svg",
+    "static/media/python.svg": "/static/media/python.14f5a10cd798d37370e148820ac33a75.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.e10aa0db3fc2714b2f6370b3f085f6fa.svg",
+    "static/media/flutter.svg": "/static/media/flutter.21e855f3a01b098ba650020b08f63258.svg",
+    "index.html": "/index.html",
+    "main.d57f3a0d.css.map": "/static/css/main.d57f3a0d.css.map",
+    "main.f46d94ab.js.map": "/static/js/main.f46d94ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d57f3a0d.css",
+    "static/js/main.f46d94ab.js"
+  ]
+}

@@ -280,6 +280,7 @@ function Resume() {
                             src={cvFile}
                             className="certificate-viewer"
                             sandbox="allow-scripts allow-same-origin"
+                            title='Curriculu Vitae'
                         />
                     </div>
                 </div>
