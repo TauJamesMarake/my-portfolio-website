@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, User, FileText, Briefcase, MessageSquare, Mail } from 'lucide-react';
+import { Home, User, FileText, MessageSquare, Mail } from 'lucide-react';
 import profilePicture from '../images/firstPrince.jpg';
 
 // Receives the current page and a function to change pages from Main.js

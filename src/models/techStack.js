@@ -18,11 +18,9 @@ const techStack = [
 
 const tools = [
     { icon: <img src={VSCodeIcon} width={40} height={40} alt='vscode' />, label: 'VSCode' },
-    { icon: <img src={VSCodeIcon} width={40} height={40} alt='vscode' />, label: 'VSCode' },
-    { icon: <img src={VSCodeIcon} width={40} height={40} alt='vscode' />, label: 'VSCode' },
-    // { icon: <img src={FigmaIcon} alt='figma icon' />, label: 'Figma' },
-    // { icon: <img src={PhotoShop} alt='adobe photoshop icon' />, label: "Adobe Photoshop" },
-    // { icon: <img src={CanvaIcon} alt='canva icon' />, label: "Canva" }
+    { icon: <img src={FigmaIcon} alt='figma icon' />, label: 'Figma' },
+    { icon: <img src={PhotoShop} alt='adobe photoshop icon' />, label: "Adobe Photoshop" },
+    { icon: <img src={CanvaIcon} alt='canva icon' />, label: "Canva" }
 ]
 
 export { techStack, tools };

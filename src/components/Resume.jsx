@@ -7,8 +7,7 @@ import cybersecurityCertificate from '../images/certificates/Introduction_to_Cyb
 import fullStackCertificate from '../images/certificates/Tau-2-687CD61AC590F-2025-07-20-13-42-19.pdf';
 import pythonEssentialsCertificate from '../images/certificates/Python_Essentials_1_certificate.pdf';
 import cvFile from '../images/certificates/cv - tau j. marake.pdf';
-import { softSkills, techSkills, skills } from '../models/skills';
-import { techStack } from '../models/techStack';
+import { softSkills, techSkills } from '../models/skills';
 
 function Resume() {
     const [selectedCertificate, setSelectedCertificate] = useState(null);
