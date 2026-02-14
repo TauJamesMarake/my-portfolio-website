@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d57f3a0d.css",
-    "main.js": "/static/js/main.f46d94ab.js",
+    "main.js": "/static/js/main.075b03d3.js",
     "static/media/profile_picture.jpg": "/static/media/profile_picture.671242e66e4c54d13741.jpg",
     "static/media/firstPrince.jpg": "/static/media/firstPrince.07778c9716c5d3095451.jpg",
     "static/media/cv - tau j. marake.pdf": "/static/media/cv - tau j. marake.22e216068ae0bb2739f4.pdf",
@@ -29,10 +29,10 @@
     "static/media/flutter.svg": "/static/media/flutter.21e855f3a01b098ba650020b08f63258.svg",
     "index.html": "/index.html",
     "main.d57f3a0d.css.map": "/static/css/main.d57f3a0d.css.map",
-    "main.f46d94ab.js.map": "/static/js/main.f46d94ab.js.map"
+    "main.075b03d3.js.map": "/static/js/main.075b03d3.js.map"
   },
   "entrypoints": [
     "static/css/main.d57f3a0d.css",
-    "static/js/main.f46d94ab.js"
+    "static/js/main.075b03d3.js"
   ]
 }
