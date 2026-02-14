@@ -60,7 +60,7 @@ function Home({ onNavigate }) {
 
                 {/* CTA ABOUT ME BUTTON */}
                 <button className="home-btn" onClick={() => onNavigate(1)}>
-                    <span >MORE ABOUT ME</span>
+                    <span >PMORE ABOUT ME</span>
                 </button>
             </div>
 
