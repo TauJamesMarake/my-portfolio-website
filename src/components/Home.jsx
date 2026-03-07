@@ -13,18 +13,18 @@ function Home({ onNavigate }) {
                 <div className="home-tagline-title bio text-center">
                     <span className="block sm:inline"><h1>Full Stack Developer</h1></span>
                     <br className="hidden sm:block" />
-                    <span className="block sm:inline subtitle" style={{ fontSize: 20 }}>
+                    <span className="block sm:inline subtitle">
                         <div className='icon'>
-                            <img src={FlutterIcon} height={15} width={15} alt='flutter' /> Flutter
+                            <img src={FlutterIcon} alt='flutter' /> Flutter
                         </div>
                         <div className='icon'>
-                            <img src={CSharpIcon} height={20} width={20} alt="csharp" /> C#
+                            <img src={CSharpIcon} alt="csharp" /> C#
                         </div>
                         <div className='icon'>
-                            <img src={JavaScriptIcon} height={20} width={20} alt="JavaScript" /> JavaScript
+                            <img src={JavaScriptIcon} alt="JavaScript" /> JavaScript
                         </div>
                         <div className='icon'>
-                            <img src={ReactIcon} height={20} width={20} alt="react" /> React.js
+                            <img src={ReactIcon} alt="react" /> React.js
                         </div>
                         {/* <div className='icon'>
                             <img src={nodejs} height={20} width={20} alt="nodejs" style={{ objectFit: 'cover', objectPosition: 'top' }} />
