@@ -9,11 +9,6 @@
     --primary-white: #FFF;
 }
 
-:root {
-    --primary-color: #FFA500;
-    --primary-white: #FFF;
-}
-
 body {
     font-family: 'Bahnschrift', sans-serif;
     overflow: hidden;
@@ -581,25 +576,27 @@ body {
 }
 
 .timeline-item {
-    background: #fff;
+    background: #2a2a2a;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .timeline-date {
-    background: #000;
-    color: #fff;
+    background: var(--primary-color);
+    color: #000;
     padding: 5px 15px;
     display: inline-block;
     border-radius: 15px;
     font-size: 12px;
+    font-weight: 70px;
     margin-bottom: 15px;
 }
 
 .timeline-item h3 {
     font-size: 18px;
     margin-bottom: 8px;
+    color: var(--primary-white);
 }
 
 .timeline-item h4 {
@@ -609,15 +606,11 @@ body {
 }
 
 .skills-list h4 {
-    color: #000;
-}
-
-.skills-list h4 {
-    color: #000;
+    color: #ccc;
 }
 
 .timeline-item p {
-    color: #666;
+    color: #ccc;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -790,8 +783,6 @@ body {
     background: #2a2a2a;
     padding: 30px;
     border-radius: 15px;
-    color: var(--primary-white);
-    position: relative;
     color: var(--primary-white);
     position: relative;
 }
@@ -1287,7 +1278,7 @@ body {
     }
 
     .home-content h2 {
-        font-size: 33px;
+        font-size: 28px;
         text-align: center;
         color: var(--primary-white);
     }

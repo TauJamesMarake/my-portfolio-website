@@ -25,7 +25,7 @@ function Resume() {
             date: '2026',
             title: 'Full Stack Web Development Intern',
             company: 'Future Interns',
-            Description: ''
+            Description: 'Build and maintain both the frontend (user interface) and backend (server, database, and logic) of web applications. Develop website features, write and test code, and fix bugs to ensure the application works smoothly across the entire system.'
         },
         {
             date: '2023 - Present',
