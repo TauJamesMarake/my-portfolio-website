@@ -36,28 +36,28 @@ function Contact() {
     };
 
     const sendEmail = (e) => {
-    e.preventDefault();
-    setStatus('sending');
+        e.preventDefault();
+        setStatus('sending');
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, { publicKey: PUBLIC_KEY })
-        .then(() => {
-            // Send USER the auto-reply
-            return emailjs.send(SERVICE_ID, AUTOREPLY_TEMP_ID, {
-                user_name: form.current.user_name.value,
-                user_email: form.current.user_email.value,
-            }, { publicKey: PUBLIC_KEY });
-        })
-        .then(() => {
-            setStatus('success');
-            form.current.reset();
-            setTimeout(() => setStatus('idle'), 5000);
-        })
-        .catch((error) => {
-            console.log('EmailJS Error:', error);
-            setStatus('error');
-            setTimeout(() => setStatus('idle'), 5000);
-        });
-};
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, { publicKey: PUBLIC_KEY })
+            .then(() => {
+                // Send USER the auto-reply
+                return emailjs.send(SERVICE_ID, AUTOREPLY_TEMP_ID, {
+                    user_name: form.current.user_name.value,
+                    user_email: form.current.user_email.value,
+                }, { publicKey: PUBLIC_KEY });
+            })
+            .then(() => {
+                setStatus('success');
+                form.current.reset();
+                setTimeout(() => setStatus('idle'), 5000);
+            })
+            .catch((error) => {
+                console.log('EmailJS Error:', error);
+                setStatus('error');
+                setTimeout(() => setStatus('idle'), 5000);
+            });
+    };
 
     return (
         <div className="page">
@@ -149,8 +149,8 @@ function Contact() {
                             'Sending...'
                         ) : (
                             <>
-                                <Send size={16} style={{ marginRight: '8px' }} />
-                                Send
+                                Send Message
+                                <Send size={16} style={{ marginLeft: '8px' }} />
                             </>
                         )}
                     </button>
