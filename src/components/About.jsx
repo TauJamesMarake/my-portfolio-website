@@ -50,7 +50,7 @@ function About() {
                     <h3>Tech Stack</h3>
                     <div className="skills-scroll-container">
                         <div className="stats-grid">
-                            {/* MAP THROUGH TECH STACK: Display each statistic in circular badges */}
+                            {/* MAP THROUGH TECH STACK */}
                             {techStack.map((tech, index) => (
                                 <div key={index} className="stat-item">
                                     <div className="stat-icon">{tech.icon}</div>
