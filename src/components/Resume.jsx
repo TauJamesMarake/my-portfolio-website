@@ -15,7 +15,7 @@ function Resume() {
 
     // EXPERIENCE DATA
     const experiences = [
-        
+
         {
             date: '2026',
             title: 'Full Stack Web Development Intern',
@@ -61,6 +61,13 @@ function Resume() {
     // CERTIFICATIONS DATA
     const certificates = [
         {
+            id: 6,
+            title: 'Python Essentials 1',
+            issuer: 'Cisco Networking Academy',
+            date: '2025',
+            certificateUrl: pythonEssentialsCertificate
+        },
+        {
             id: 1,
             title: 'Full Stack Development',
             issuer: 'FNB App Academy, IT Varsity',
@@ -94,13 +101,6 @@ function Resume() {
             issuer: 'Great Learning',
             date: '2024',
             certificateUrl: marketingCertificate
-        },
-        {
-            id: 6,
-            title: 'Python Essentials 1',
-            issuer: 'Cisco Networking Academy',
-            date: '2025',
-            certificateUrl: pythonEssentialsCertificate
         }
     ];
 
