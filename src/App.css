@@ -1297,9 +1297,10 @@ body {
     }
 
     .home-content h1 {
+        color: var(--primary-white);
         font-size: 22px;
         text-align: center;
-        color: var(--primary-white);
+        margin-bottom: 10px;
     }
 
     .home-content .icon {
