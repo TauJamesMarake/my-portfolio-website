@@ -4,10 +4,10 @@ import { techStack } from '../models/techStack.js';
 import { skills } from '../models/skills.js'
 
 // Displays skills, services, and techstack
-function About() {
+function About({ onNavigate }) {
     return (
         <div className="page">
-            {/* PAGE HEADER: Title with profile image */}
+            {/* PAGE HEADER: Title */}
             <div className="about-header">
                 <h1>ABOUT</h1>
             </div>
@@ -16,17 +16,19 @@ function About() {
             <div className="about-intro">
                 <h2>TAU JAMES MARAKE</h2>
                 <p>
-                    Information Technology graduate, Full-Stack Developer, and a creative with a passion for turning ideas into modern software, web and mobile applications, and designing interfaces.
-                    I enjoy working across the frontend and backend, building efficient solutions, and creating seamless user experiences. I'm always eager to learn new technologies and tackle challenging projects.
-                    I combine technical precision with creative insight to turn ideas into functional, visually engaging products.<br /><br />
-
-                    Whether it's developing software, designing brands, or launching entrepreneurial projects, my work is driven by purpose, innovation, and attention to detail.<br />
+                    Information Technology graduate, Full-Stack Developer, and IT professional based in Johannesburg, Gauteng with a background that spans software development, system design and technical operations.
+                    Graduated with an IT Diploma (NQF 6) from the Central University of Technology, 2026. During the academic years, I spent 2 years as an IT Student Assistant maintaining a computing environment of over 200 workstations and developing a practical foundation in systems administration alongside studies.
+                    <br /><br />
+                    My approach to software developement is shaped by a belief that technology must solve real problems for real people. My projects reflect this: a student accomodation pllartform built for an active client, a live website for an automotive workshop in Polokwane and order management system designed to replace a broken spreadsheet workflow for a mineral distribution company (in production).
+                    <br /><br />
+                    Fluent in six (6) Souht African langauges, English, Sesotho, Setswana, Sepedi, IsiZulu, and IsiXhosa. I understand the business and cultural context of building software for the South African market.<br />
+                    I'm currently available fo Junior Developer roles, Freelance engagements, and Technology Consulting Work.
                 </p>
             </div>
 
             {/* TWO COLUMN LAYOUT */}
             <div className="about-content">
-                {/* LEFT COLUMN: What I Do - Skills/Services */}
+                {/* LEFT COLUMN: What I Do, Skills/Services */}
                 <div className="what-i-do">
                     <h3>Services</h3>
 

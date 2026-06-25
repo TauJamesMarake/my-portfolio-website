@@ -11,13 +11,13 @@ function Home({ onNavigate }) {
 
                 {/* TAGLINES */}
                 <div className="home-tagline-title bio">
-                    <h1>Full Stack Developer</h1>
+                    <h1>Full Stack Developer & <br />Digital Systems Builder</h1>
                     <div className="subtitle">
                         <span className='icon'>
                             <img src={FlutterIcon} alt='flutter' /> Flutter
                         </span>
                         <span className='icon'>
-                            <img src={CSharpIcon} alt="csharp" /> C#
+                            <img src={CSharpIcon} alt="csharp" /> C# ASP .NET
                         </span>
                         <span className='icon'>
                             <img src={JavaScriptIcon} alt="JavaScript" /> JavaScript
@@ -31,13 +31,14 @@ function Home({ onNavigate }) {
 
                 {/* DESCRIPTION */}
                 <p className="home-description">
-                    I design and develop scalable systems and digital experiences that blend functionality, creativity, and intent, helping businesses get more customers and manage operations online. I specialise in building functional modern web and mobile appplications.<br /><br />
-                    There's more - <em>explore the craft behind the code.</em>
+                    I build software that solves real business problems.<br />
+                    From client websites and management systems to internal business tools. I design and develop digital solutions that work in the real world.<br /><br />
+                    <em>Johannesburg, Gauteng.</em>
                 </p>
 
                 {/* CTA ABOUT ME BUTTON */}
                 <button className="home-btn" onClick={() => onNavigate(1)}>
-                    <span>EXPLORE THE WORKS</span>
+                    <span>SEE THE WORKS</span>
                 </button>
             </div>
 

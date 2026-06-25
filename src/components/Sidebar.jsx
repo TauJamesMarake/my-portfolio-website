@@ -14,7 +14,7 @@ function Sidebar({ activePage, onPageChange, mobile }) {
 
     return (
         <div className={`sidebar ${mobile ? 'sidebar-mobile' : ''}`}>
-            {/* PROFILE IMAGE- only show in desktop sidebar, not mobile drawer header */}
+            {/* PROFILE IMAGE- only show in desktop sidebar */}
             {!mobile && (
                 <div className='sidebar-profile'>
                     <img src={profilePicture} alt='Profile' />

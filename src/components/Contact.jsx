@@ -71,7 +71,10 @@ function Contact() {
             <div className="contact-content">
                 {/* PAGE HEADER */}
                 <h1>CONTACT</h1>
-                <p className="contact-subtitle">Feel free to contact me!</p>
+                <p className="contact-subtitle">
+                    Need a wesbite, app or system? Working on something? Have an idea? <br />
+                    Let's talk!
+                </p>
 
                 {/* CONTACT METHODS GRID */}
                 <div className="contact-methods">

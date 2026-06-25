@@ -6,6 +6,7 @@ import dataScience2Certificate from '../images/certificates/2nd _introduction_to
 import cybersecurityCertificate from '../images/certificates/Introduction_to_Cybersecurity_certificate.pdf';
 import fullStackCertificate from '../images/certificates/Tau-2-687CD61AC590F-2025-07-20-13-42-19.pdf';
 import pythonEssentialsCertificate from '../images/certificates/Python_Essentials_1_certificate.pdf';
+import fullStackWebDev from '../images/certificates/Full Stack Web Development.pdf';
 import { softSkills, techSkills } from '../models/skills';
 
 function Resume() {
@@ -21,7 +22,7 @@ function Resume() {
             date: '2026',
             title: 'Full Stack Web Development Intern',
             company: 'Future Interns',
-            description: 'Build and maintain both the frontend (user interface) and backend (server, database, and logic) of web applications. Develop website features, write, and fix bugs to ensure the application works smoothly across the entire system and a completion of tasks.'
+            description: 'Completed task-based assignments (Web Portfolio, CRM, full stack real world Business Website) aligned with the program requirements. Understood requirements and applied learned concepts in practical scenarios. Improved in technical understanding, problem-solving skills, attention to detail, acceptance of feedback constructively, and maintainance of discipline in meeting deadlines'
         },
         {
             date: '2023 - 2025',
@@ -61,6 +62,13 @@ function Resume() {
 
     // CERTIFICATIONS DATA
     const certificates = [
+        {
+            id: 7,
+            title: 'Full Stack Web Development',
+            issuer: 'Future Interns',
+            date: '2026',
+            certificateUrl: fullStackWebDev
+        },
         {
             id: 6,
             title: 'Python Essentials 1',

@@ -1,5 +1,18 @@
 const skills = [
     {
+        title: 'BUSINESS WEBSITE DEVELOPMENT',
+        description: 'Deliver Responsive website, contact integration, Google Maps, WhatsApp embed, hosting setup for Small business with no web presence or outdated sites to gain credibility and customers.'
+    },
+    {
+        title: 'INTERNAL BUSINESS SYSTEMS',
+        description: 'Software-as-a-Service (SaaS) data management system, user roles, real-time updates, export functionality. Small teams wasting time on shared spreadsheets, WhatsApp order tracking, or paper records.'
+    },
+    {
+        title: 'IT SUPPORT & TECHNICAL CONSULTATION',
+        description: 'Hardware/Software Assessment, setup and configuraton, written recommendations. As small businesses without in-house IT make poor decisons or suffer avoidable downtime.'
+    }
+    ,
+    {
         title: 'MOBILE APP DEVELOPMENT',
         description: 'I build seamless cross-platform applications with smooth functionality and user-centered interfaces.'
     },
@@ -11,10 +24,6 @@ const skills = [
         title: 'SOFTWARE DEVELOPMENT',
         description: 'Applying security-conscious development practices and exploring IT solutions that protect digital assets.'
     },
-    // {
-    //     title: 'CYBERSECURITY (Foundational)',
-    //     description: 'Secure coding practices, authentication & authorisation, basic network security concepts, malware awareness & prevention, data protection & privacy principles, risk & threat analysis'
-    // },
     {
         title: 'FRONTEND DEVELOPMENT',
         description: 'I specialise in building responsive, user focused web and mobile interfaces that combine clean dsign with effecient functionality. With my strong foundation inmodern developement tools and frameworks, I transform design concepts into scalable and interactive experience. Clean code, optimising performance, and creating seamless user interactions across devices.'
@@ -26,6 +35,10 @@ const skills = [
     {
         title: 'GRAPHIC DESIGN',
         description: 'Designing digital artwork, posters, flyers & album covers.'
+    },
+    {
+        title: 'CYBERSECURITY (Foundational)',
+        description: 'Secure coding practices, authentication & authorisation, basic network security concepts, malware awareness & prevention, data protection & privacy principles, risk & threat analysis'
     },
     // {
     //     title: 'DIGITAL ENTREPRENEURSHIP',
