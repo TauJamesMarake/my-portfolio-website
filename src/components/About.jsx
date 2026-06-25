@@ -21,7 +21,7 @@ function About({ onNavigate }) {
                     <br /><br />
                     My approach to software developement is shaped by a belief that technology must solve real problems for real people. My projects reflect this: a student accomodation plartform built for an active client, a live website for an automotive workshop in Polokwane and order management system designed to replace a broken spreadsheet workflow for a mineral distribution company (in production).
                     <br /><br />
-                    Fluent in six (6) Souht African langauges, English, Sesotho, Setswana, Sepedi, IsiZulu, and IsiXhosa. I understand the business and cultural context of building software for the South African market.<br />
+                    Fluent in six (6) South African langauges, English, Sesotho, Setswana, Sepedi, IsiZulu, and IsiXhosa. I understand the business and cultural context of building software for the South African market.<br />
                     I'm currently available to Junior Developer roles, Freelance engagements, and Technology Consulting Work.
                 </p>
             </div>
